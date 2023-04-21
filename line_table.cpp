@@ -27,7 +27,7 @@ void input(SqList& L)
         scanf_s("%d", &L.data[i]);
     }
 }
-
+//Êä³öË³Ğò±í
 void print(SqList L)
 {
     int i = 0;
