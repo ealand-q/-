@@ -9,7 +9,7 @@ typedef struct node {
 	node* next;
 
 }node;
-
+//输出链表
 void print(node* head) {
 
 	node* p;
@@ -65,8 +65,6 @@ node* create() {
 	return head;
 
 }
-//输出链表 
-
 //计算单链表的长度 
 int ListLength(node* head) {
 
